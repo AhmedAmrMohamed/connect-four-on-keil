@@ -337,36 +337,36 @@ Image Symbol Table
     i.Timer5A_Handler                        0x00000bd0   Section        0  texas.o(i.Timer5A_Handler)
     i.UART0_Init                             0x00000c00   Section        0  texas.o(i.UART0_Init)
     i.check_board                            0x00000cc0   Section        0  connectfour.o(i.check_board)
-    i.check_cell                             0x00000d04   Section        0  connectfour.o(i.check_cell)
-    i.display_board                          0x00000d78   Section        0  connectfour.o(i.display_board)
-    i.display_chipdrop                       0x00000de0   Section        0  connectfour.o(i.display_chipdrop)
-    i.display_sage                           0x00000e24   Section        0  connectfour.o(i.display_sage)
-    i.getcell                                0x00000e5c   Section        0  connectfour.o(i.getcell)
-    i.lcdwrite                               0x00000e80   Section        0  nokia5110.o(i.lcdwrite)
-    lcdwrite                                 0x00000e81   Thumb Code    66  nokia5110.o(i.lcdwrite)
-    i.main                                   0x00000ecc   Section        0  connectfour.o(i.main)
-    i.move_sage                              0x00000fdc   Section        0  connectfour.o(i.move_sage)
-    i.play                                   0x00000ff8   Section        0  connectfour.o(i.play)
-    i.put                                    0x0000104c   Section        0  connectfour.o(i.put)
-    i.read_sw1                               0x00001098   Section        0  connectfour.o(i.read_sw1)
-    i.read_sw2                               0x000010a8   Section        0  connectfour.o(i.read_sw2)
-    i.toggleturn                             0x000010b8   Section        0  connectfour.o(i.toggleturn)
-    i.valid                                  0x000010c8   Section        0  connectfour.o(i.valid)
-    .constdata                               0x000010da   Section      480  nokia5110.o(.constdata)
-    ASCII                                    0x000010da   Data         480  nokia5110.o(.constdata)
-    .constdata                               0x000012ba   Section      360  texas.o(.constdata)
-    .constdata                               0x00001424   Section      700  connectfour.o(.constdata)
-    ASCII                                    0x00001424   Data         480  connectfour.o(.constdata)
+    i.check_cell                             0x00000d08   Section        0  connectfour.o(i.check_cell)
+    i.display_board                          0x00000d8c   Section        0  connectfour.o(i.display_board)
+    i.display_chipdrop                       0x00000df8   Section        0  connectfour.o(i.display_chipdrop)
+    i.display_sage                           0x00000e40   Section        0  connectfour.o(i.display_sage)
+    i.getcell                                0x00000e78   Section        0  connectfour.o(i.getcell)
+    i.lcdwrite                               0x00000e9c   Section        0  nokia5110.o(i.lcdwrite)
+    lcdwrite                                 0x00000e9d   Thumb Code    66  nokia5110.o(i.lcdwrite)
+    i.main                                   0x00000ee8   Section        0  connectfour.o(i.main)
+    i.move_sage                              0x00000ff8   Section        0  connectfour.o(i.move_sage)
+    i.play                                   0x00001018   Section        0  connectfour.o(i.play)
+    i.put                                    0x00001074   Section        0  connectfour.o(i.put)
+    i.read_sw1                               0x000010c4   Section        0  connectfour.o(i.read_sw1)
+    i.read_sw2                               0x000010d4   Section        0  connectfour.o(i.read_sw2)
+    i.toggleturn                             0x000010e4   Section        0  connectfour.o(i.toggleturn)
+    i.valid                                  0x000010f6   Section        0  connectfour.o(i.valid)
+    .constdata                               0x00001108   Section      480  nokia5110.o(.constdata)
+    ASCII                                    0x00001108   Data         480  nokia5110.o(.constdata)
+    .constdata                               0x000012e8   Section      360  texas.o(.constdata)
+    .constdata                               0x00001450   Section      692  connectfour.o(.constdata)
+    ASCII                                    0x00001450   Data         480  connectfour.o(.constdata)
     .data                                    0x20000000   Section       52  texas.o(.data)
-    .data                                    0x20000034   Section       84  connectfour.o(.data)
-    .bss                                     0x20000088   Section      504  nokia5110.o(.bss)
-    .bss                                     0x20000280   Section       56  texas.o(.bss)
-    .bss                                     0x200002b8   Section      416  connectfour.o(.bss)
-    .bss                                     0x20000458   Section       96  libspace.o(.bss)
-    HEAP                                     0x200004b8   Section        0  startup.o(HEAP)
-    STACK                                    0x200004b8   Section     1024  startup.o(STACK)
-    HeapMem                                  0x200004b8   Data           0  startup.o(HEAP)
-    StackMem                                 0x200004b8   Data           0  startup.o(STACK)
+    .data                                    0x20000034   Section       72  connectfour.o(.data)
+    .bss                                     0x2000007c   Section      504  nokia5110.o(.bss)
+    .bss                                     0x20000278   Section       56  texas.o(.bss)
+    .bss                                     0x200002b0   Section      208  connectfour.o(.bss)
+    .bss                                     0x20000380   Section       96  libspace.o(.bss)
+    HEAP                                     0x200003e0   Section        0  startup.o(HEAP)
+    STACK                                    0x200003e0   Section     1024  startup.o(STACK)
+    HeapMem                                  0x200003e0   Data           0  startup.o(HEAP)
+    StackMem                                 0x200003e0   Data           0  startup.o(STACK)
 
     Global Symbols
 
@@ -608,36 +608,36 @@ Image Symbol Table
     Timer4A_Handler                          0x00000bb1   Thumb Code    20  texas.o(i.Timer4A_Handler)
     Timer5A_Handler                          0x00000bd1   Thumb Code    34  texas.o(i.Timer5A_Handler)
     UART0_Init                               0x00000c01   Thumb Code   160  texas.o(i.UART0_Init)
-    check_board                              0x00000cc1   Thumb Code    62  connectfour.o(i.check_board)
-    check_cell                               0x00000d05   Thumb Code   116  connectfour.o(i.check_cell)
-    display_board                            0x00000d79   Thumb Code    94  connectfour.o(i.display_board)
-    display_chipdrop                         0x00000de1   Thumb Code    60  connectfour.o(i.display_chipdrop)
-    display_sage                             0x00000e25   Thumb Code    42  connectfour.o(i.display_sage)
-    getcell                                  0x00000e5d   Thumb Code    32  connectfour.o(i.getcell)
-    main                                     0x00000ecd   Thumb Code   228  connectfour.o(i.main)
-    move_sage                                0x00000fdd   Thumb Code    22  connectfour.o(i.move_sage)
-    play                                     0x00000ff9   Thumb Code    70  connectfour.o(i.play)
-    put                                      0x0000104d   Thumb Code    66  connectfour.o(i.put)
-    read_sw1                                 0x00001099   Thumb Code    10  connectfour.o(i.read_sw1)
-    read_sw2                                 0x000010a9   Thumb Code    10  connectfour.o(i.read_sw2)
-    toggleturn                               0x000010b9   Thumb Code    16  connectfour.o(i.toggleturn)
-    valid                                    0x000010c9   Thumb Code    18  connectfour.o(i.valid)
-    NoInputMsg                               0x000012ba   Data          40  texas.o(.constdata)
-    OutputPortMsg0                           0x000012e2   Data          40  texas.o(.constdata)
-    OutputPortMsg1                           0x0000130a   Data          40  texas.o(.constdata)
-    OutputPortMsg2                           0x00001332   Data          40  texas.o(.constdata)
-    OutputPortMsg3                           0x0000135a   Data          40  texas.o(.constdata)
-    BlankMsg                                 0x00001382   Data          40  texas.o(.constdata)
-    InitializedMsg                           0x000013aa   Data          40  texas.o(.constdata)
-    IntroMsg                                 0x000013d2   Data          40  texas.o(.constdata)
-    DoneMsg                                  0x000013fa   Data          40  texas.o(.constdata)
-    cursor                                   0x00001604   Data         135  connectfour.o(.constdata)
-    sage22                                   0x0000168b   Data          71  connectfour.o(.constdata)
-    BOARDWIDTH                               0x000016d4   Data           4  connectfour.o(.constdata)
-    BOARDHIGHT                               0x000016d8   Data           4  connectfour.o(.constdata)
-    CELLSPACING                              0x000016dc   Data           4  connectfour.o(.constdata)
-    Region$$Table$$Base                      0x000016e0   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00001700   Number         0  anon$$obj.o(Region$$Table)
+    check_board                              0x00000cc1   Thumb Code    66  connectfour.o(i.check_board)
+    check_cell                               0x00000d09   Thumb Code   130  connectfour.o(i.check_cell)
+    display_board                            0x00000d8d   Thumb Code    98  connectfour.o(i.display_board)
+    display_chipdrop                         0x00000df9   Thumb Code    64  connectfour.o(i.display_chipdrop)
+    display_sage                             0x00000e41   Thumb Code    44  connectfour.o(i.display_sage)
+    getcell                                  0x00000e79   Thumb Code    32  connectfour.o(i.getcell)
+    main                                     0x00000ee9   Thumb Code   228  connectfour.o(i.main)
+    move_sage                                0x00000ff9   Thumb Code    26  connectfour.o(i.move_sage)
+    play                                     0x00001019   Thumb Code    80  connectfour.o(i.play)
+    put                                      0x00001075   Thumb Code    72  connectfour.o(i.put)
+    read_sw1                                 0x000010c5   Thumb Code    10  connectfour.o(i.read_sw1)
+    read_sw2                                 0x000010d5   Thumb Code    10  connectfour.o(i.read_sw2)
+    toggleturn                               0x000010e5   Thumb Code    18  connectfour.o(i.toggleturn)
+    valid                                    0x000010f7   Thumb Code    18  connectfour.o(i.valid)
+    NoInputMsg                               0x000012e8   Data          40  texas.o(.constdata)
+    OutputPortMsg0                           0x00001310   Data          40  texas.o(.constdata)
+    OutputPortMsg1                           0x00001338   Data          40  texas.o(.constdata)
+    OutputPortMsg2                           0x00001360   Data          40  texas.o(.constdata)
+    OutputPortMsg3                           0x00001388   Data          40  texas.o(.constdata)
+    BlankMsg                                 0x000013b0   Data          40  texas.o(.constdata)
+    InitializedMsg                           0x000013d8   Data          40  texas.o(.constdata)
+    IntroMsg                                 0x00001400   Data          40  texas.o(.constdata)
+    DoneMsg                                  0x00001428   Data          40  texas.o(.constdata)
+    cursor                                   0x00001630   Data         135  connectfour.o(.constdata)
+    sage22                                   0x000016b7   Data          71  connectfour.o(.constdata)
+    BOARDWIDTH                               0x000016fe   Data           2  connectfour.o(.constdata)
+    BOARDHIGHT                               0x00001700   Data           2  connectfour.o(.constdata)
+    CELLSPACING                              0x00001702   Data           2  connectfour.o(.constdata)
+    Region$$Table$$Base                      0x00001704   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00001724   Number         0  anon$$obj.o(Region$$Table)
     TExaS_Period                             0x20000000   Data           4  texas.o(.data)
     TExaS_Ports                              0x20000004   Data           8  texas.o(.data)
     Display                                  0x2000000c   Data           1  texas.o(.data)
@@ -654,20 +654,20 @@ Image Symbol Table
     crwinmsg                                 0x20000040   Data          12  connectfour.o(.data)
     tiemsg                                   0x2000004c   Data           5  connectfour.o(.data)
     frmsg                                    0x20000051   Data          18  connectfour.o(.data)
-    sage                                     0x20000064   Data           4  connectfour.o(.data)
-    turn                                     0x20000068   Data           4  connectfour.o(.data)
-    gameover                                 0x2000006c   Data           4  connectfour.o(.data)
-    winner                                   0x20000070   Data           4  connectfour.o(.data)
-    debugplayed                              0x20000074   Data           4  connectfour.o(.data)
-    pressedsw2                               0x20000078   Data           4  connectfour.o(.data)
-    debugvalid                               0x2000007c   Data           4  connectfour.o(.data)
-    SW1                                      0x20000080   Data           4  connectfour.o(.data)
-    SW2                                      0x20000084   Data           4  connectfour.o(.data)
-    Screen                                   0x20000088   Data         504  nokia5110.o(.bss)
-    TExaS                                    0x20000280   Data          56  texas.o(.bss)
-    board                                    0x200002b8   Data         416  connectfour.o(.bss)
-    __libspace_start                         0x20000458   Data          96  libspace.o(.bss)
-    __temporary_stack_top$libspace           0x200004b8   Data           0  libspace.o(.bss)
+    sage                                     0x20000064   Data           2  connectfour.o(.data)
+    turn                                     0x20000066   Data           2  connectfour.o(.data)
+    gameover                                 0x20000068   Data           2  connectfour.o(.data)
+    winner                                   0x2000006a   Data           2  connectfour.o(.data)
+    debugplayed                              0x2000006c   Data           2  connectfour.o(.data)
+    pressedsw2                               0x2000006e   Data           2  connectfour.o(.data)
+    debugvalid                               0x20000070   Data           2  connectfour.o(.data)
+    SW1                                      0x20000074   Data           4  connectfour.o(.data)
+    SW2                                      0x20000078   Data           4  connectfour.o(.data)
+    Screen                                   0x2000007c   Data         504  nokia5110.o(.bss)
+    TExaS                                    0x20000278   Data          56  texas.o(.bss)
+    board                                    0x200002b0   Data         208  connectfour.o(.bss)
+    __libspace_start                         0x20000380   Data          96  libspace.o(.bss)
+    __temporary_stack_top$libspace           0x200003e0   Data           0  libspace.o(.bss)
 
 
 
@@ -677,9 +677,9 @@ Memory Map of the image
 
   Image Entry point : 0x0000026d
 
-  Load Region LR_1 (Base: 0x00000000, Size: 0x00001788, Max: 0xffffffff, ABSOLUTE)
+  Load Region LR_1 (Base: 0x00000000, Size: 0x000017a0, Max: 0xffffffff, ABSOLUTE)
 
-    Execution Region ER_RO (Base: 0x00000000, Size: 0x00001700, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RO (Base: 0x00000000, Size: 0x00001724, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -760,46 +760,47 @@ Memory Map of the image
     0x00000bb0   0x00000020   Code   RO          105    i.Timer4A_Handler   texas.o
     0x00000bd0   0x00000030   Code   RO          106    i.Timer5A_Handler   texas.o
     0x00000c00   0x000000c0   Code   RO          109    i.UART0_Init        texas.o
-    0x00000cc0   0x00000044   Code   RO          217    i.check_board       connectfour.o
-    0x00000d04   0x00000074   Code   RO          218    i.check_cell        connectfour.o
-    0x00000d78   0x00000068   Code   RO          219    i.display_board     connectfour.o
-    0x00000de0   0x00000044   Code   RO          220    i.display_chipdrop  connectfour.o
-    0x00000e24   0x00000038   Code   RO          221    i.display_sage      connectfour.o
-    0x00000e5c   0x00000024   Code   RO          222    i.getcell           connectfour.o
-    0x00000e80   0x0000004c   Code   RO           22    i.lcdwrite          nokia5110.o
-    0x00000ecc   0x00000110   Code   RO          223    i.main              connectfour.o
-    0x00000fdc   0x0000001c   Code   RO          224    i.move_sage         connectfour.o
-    0x00000ff8   0x00000054   Code   RO          225    i.play              connectfour.o
-    0x0000104c   0x0000004c   Code   RO          226    i.put               connectfour.o
-    0x00001098   0x00000010   Code   RO          227    i.read_sw1          connectfour.o
-    0x000010a8   0x00000010   Code   RO          228    i.read_sw2          connectfour.o
-    0x000010b8   0x00000010   Code   RO          229    i.toggleturn        connectfour.o
-    0x000010c8   0x00000012   Code   RO          230    i.valid             connectfour.o
-    0x000010da   0x000001e0   Data   RO           24    .constdata          nokia5110.o
-    0x000012ba   0x00000168   Data   RO          114    .constdata          texas.o
-    0x00001422   0x00000002   PAD
-    0x00001424   0x000002bc   Data   RO          232    .constdata          connectfour.o
-    0x000016e0   0x00000020   Data   RO          486    Region$$Table       anon$$obj.o
+    0x00000cc0   0x00000048   Code   RO          217    i.check_board       connectfour.o
+    0x00000d08   0x00000082   Code   RO          218    i.check_cell        connectfour.o
+    0x00000d8a   0x00000002   PAD
+    0x00000d8c   0x0000006c   Code   RO          219    i.display_board     connectfour.o
+    0x00000df8   0x00000048   Code   RO          220    i.display_chipdrop  connectfour.o
+    0x00000e40   0x00000038   Code   RO          221    i.display_sage      connectfour.o
+    0x00000e78   0x00000024   Code   RO          222    i.getcell           connectfour.o
+    0x00000e9c   0x0000004c   Code   RO           22    i.lcdwrite          nokia5110.o
+    0x00000ee8   0x00000110   Code   RO          223    i.main              connectfour.o
+    0x00000ff8   0x00000020   Code   RO          224    i.move_sage         connectfour.o
+    0x00001018   0x0000005c   Code   RO          225    i.play              connectfour.o
+    0x00001074   0x00000050   Code   RO          226    i.put               connectfour.o
+    0x000010c4   0x00000010   Code   RO          227    i.read_sw1          connectfour.o
+    0x000010d4   0x00000010   Code   RO          228    i.read_sw2          connectfour.o
+    0x000010e4   0x00000012   Code   RO          229    i.toggleturn        connectfour.o
+    0x000010f6   0x00000012   Code   RO          230    i.valid             connectfour.o
+    0x00001108   0x000001e0   Data   RO           24    .constdata          nokia5110.o
+    0x000012e8   0x00000168   Data   RO          114    .constdata          texas.o
+    0x00001450   0x000002b4   Data   RO          232    .constdata          connectfour.o
+    0x00001704   0x00000020   Data   RO          486    Region$$Table       anon$$obj.o
 
 
-    Execution Region ER_RW (Base: 0x20000000, Size: 0x00000088, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_RW (Base: 0x20000000, Size: 0x0000007c, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000   0x00000034   Data   RW          115    .data               texas.o
-    0x20000034   0x00000054   Data   RW          233    .data               connectfour.o
+    0x20000034   0x00000048   Data   RW          233    .data               connectfour.o
 
 
-    Execution Region ER_ZI (Base: 0x20000088, Size: 0x00000830, Max: 0xffffffff, ABSOLUTE)
+    Execution Region ER_ZI (Base: 0x2000007c, Size: 0x00000764, Max: 0xffffffff, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000088   0x000001f8   Zero   RW           23    .bss                nokia5110.o
-    0x20000280   0x00000038   Zero   RW          113    .bss                texas.o
-    0x200002b8   0x000001a0   Zero   RW          231    .bss                connectfour.o
-    0x20000458   0x00000060   Zero   RW          363    .bss                c_w.l(libspace.o)
-    0x200004b8   0x00000000   Zero   RW            2    HEAP                startup.o
-    0x200004b8   0x00000400   Zero   RW            1    STACK               startup.o
+    0x2000007c   0x000001f8   Zero   RW           23    .bss                nokia5110.o
+    0x20000274   0x00000004   PAD
+    0x20000278   0x00000038   Zero   RW          113    .bss                texas.o
+    0x200002b0   0x000000d0   Zero   RW          231    .bss                connectfour.o
+    0x20000380   0x00000060   Zero   RW          363    .bss                c_w.l(libspace.o)
+    0x200003e0   0x00000000   Zero   RW            2    HEAP                startup.o
+    0x200003e0   0x00000400   Zero   RW            1    STACK               startup.o
 
 
 ==============================================================================
@@ -809,15 +810,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1130        166        700         84        416       9287   connectfour.o
+      1174        160        692         72        208       9347   connectfour.o
       1096         76        480          0        504       8769   nokia5110.o
        692        632          0          0       1024        852   startup.o
       1120        244        360         52         56      15848   texas.o
 
     ----------------------------------------------------------------------
-      4042       1118       1574        136       2000      34756   Object Totals
+      4088       1112       1564        124       1796      34816   Object Totals
          0          0         32          0          0          0   (incl. Generated)
-         4          0          2          0          0          0   (incl. Padding)
+         6          0          0          0          4          0   (incl. Padding)
 
     ----------------------------------------------------------------------
 
@@ -864,15 +865,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      4314       1134       1574        136       2096      33408   Grand Totals
-      4314       1134       1574        136       2096      33408   ELF Image Totals
-      4314       1134       1574        136          0          0   ROM Totals
+      4360       1128       1564        124       1892      33468   Grand Totals
+      4360       1128       1564        124       1892      33468   ELF Image Totals
+      4360       1128       1564        124          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 5888 (   5.75kB)
-    Total RW  Size (RW Data + ZI Data)              2232 (   2.18kB)
-    Total ROM Size (Code + RO Data + RW Data)       6024 (   5.88kB)
+    Total RO  Size (Code + RO Data)                 5924 (   5.79kB)
+    Total RW  Size (RW Data + ZI Data)              2016 (   1.97kB)
+    Total ROM Size (Code + RO Data + RW Data)       6048 (   5.91kB)
 
 ==============================================================================
 

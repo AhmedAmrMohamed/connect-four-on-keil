@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\connectfour.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\connectfour.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Sun May 31 22:31:03 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5.03 [Build 76]: Last Updated: Thu Jun 04 08:41:01 2020
 <BR><P>
 <H3>Maximum Stack Usage =        100 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -896,7 +896,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;TExaS_Init
 </UL>
 
-<P><STRONG><a name="[a2]"></a>check_board</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, connectfour.o(i.check_board))
+<P><STRONG><a name="[a2]"></a>check_board</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, connectfour.o(i.check_board))
 <BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = check_board &rArr; check_cell &rArr; getcell
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_cell
@@ -904,7 +904,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;play
 </UL>
 
-<P><STRONG><a name="[a3]"></a>check_cell</STRONG> (Thumb, 116 bytes, Stack size 36 bytes, connectfour.o(i.check_cell))
+<P><STRONG><a name="[a3]"></a>check_cell</STRONG> (Thumb, 130 bytes, Stack size 36 bytes, connectfour.o(i.check_cell))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = check_cell &rArr; getcell
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;getcell
@@ -912,7 +912,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;check_board
 </UL>
 
-<P><STRONG><a name="[a5]"></a>display_board</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, connectfour.o(i.display_board))
+<P><STRONG><a name="[a5]"></a>display_board</STRONG> (Thumb, 98 bytes, Stack size 16 bytes, connectfour.o(i.display_board))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = display_board &rArr; Nokia5110_PrintBMP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_PrintBMP
@@ -921,7 +921,7 @@ Global Symbols
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_chipdrop
 </UL>
 
-<P><STRONG><a name="[a7]"></a>display_chipdrop</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, connectfour.o(i.display_chipdrop))
+<P><STRONG><a name="[a7]"></a>display_chipdrop</STRONG> (Thumb, 64 bytes, Stack size 16 bytes, connectfour.o(i.display_chipdrop))
 <BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = display_chipdrop &rArr; display_board &rArr; Nokia5110_PrintBMP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_board
@@ -932,7 +932,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;put
 </UL>
 
-<P><STRONG><a name="[aa]"></a>display_sage</STRONG> (Thumb, 42 bytes, Stack size 16 bytes, connectfour.o(i.display_sage))
+<P><STRONG><a name="[aa]"></a>display_sage</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, connectfour.o(i.display_sage))
 <BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = display_sage &rArr; Nokia5110_PrintBMP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Nokia5110_PrintBMP
@@ -970,11 +970,11 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>
 
-<P><STRONG><a name="[ae]"></a>move_sage</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, connectfour.o(i.move_sage))
+<P><STRONG><a name="[ae]"></a>move_sage</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, connectfour.o(i.move_sage))
 <BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[b0]"></a>play</STRONG> (Thumb, 70 bytes, Stack size 8 bytes, connectfour.o(i.play))
+<P><STRONG><a name="[b0]"></a>play</STRONG> (Thumb, 80 bytes, Stack size 8 bytes, connectfour.o(i.play))
 <BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = play &rArr; put &rArr; display_chipdrop &rArr; display_board &rArr; Nokia5110_PrintBMP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;toggleturn
@@ -984,7 +984,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[b1]"></a>put</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, connectfour.o(i.put))
+<P><STRONG><a name="[b1]"></a>put</STRONG> (Thumb, 72 bytes, Stack size 16 bytes, connectfour.o(i.put))
 <BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = put &rArr; display_chipdrop &rArr; display_board &rArr; Nokia5110_PrintBMP
 </UL>
 <BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;display_chipdrop
@@ -1000,7 +1000,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[b2]"></a>toggleturn</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, connectfour.o(i.toggleturn))
+<P><STRONG><a name="[b2]"></a>toggleturn</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, connectfour.o(i.toggleturn))
 <BR><BR>[Called By]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;play
 </UL>
 
